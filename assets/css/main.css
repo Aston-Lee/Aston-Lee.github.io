@@ -1664,6 +1664,7 @@
 
 		hr.major {
 			margin: 3em 0;
+			display: flex;
 		}
 
 	blockquote {
@@ -2213,10 +2214,16 @@
 					ul.actions.fit.small li {
 						padding: 0 0 0 0.5em;
 					}
+		div.major{
+			display: flex;
+		}
 
 		ul.labeled-icons {
 			list-style: none;
 			padding: 0;
+			width: 500px;
+			height: 400px;
+			margin: 10px;
 		}
 
 			ul.labeled-icons li {
@@ -3105,4 +3112,17 @@
 				padding-left: 0;
 			}
 
+	}
+
+	.DIV1{
+		width:500px;
+		padding:20px;
+		margin-right:10px;
+		float:left;
+		}
+
+	.DIV2{
+	width:500px;
+	padding:20px;
+	float:right;
 	}
